@@ -73,7 +73,7 @@ folium
 #############
 Data sources
 #############
-* Aircraft delays
+* Aircraft Delays
 https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time
 - Airline On-Time Performance database from the Bureau of Transportation Statistics
 "Monthly data reported by US certified air carriers that account for at least one percent of domestic scheduled passenger revenues--includes scheduled and actual arrival and departure times for flights."
@@ -82,7 +82,7 @@ https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-
 -- Rows are per flight (take off datetime, origin, destination)
 -- Delays are calculated using only delays cause by an airline-related reason (maintenance crew problems, baggage loading, fueling, previous flight with same aircraft arrived late) .
 
-* Aircraft occupancy
+* Aircraft Occupancy
 https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=259&DB_Short_Name=Air%20Carriers
 - Air Carrier Statistics (Form 41 Traffic)- U.S. Carriers database from the Bureau of Transportation Statistics
 "Monthly data reported by certificated U.S. air carriers on passengers, freight and mail transported. Also includes aircraft type, service class, available capacity and seats, and aircraft hours ramp-to-ramp and airborne."
@@ -92,7 +92,7 @@ https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=259&DB_Short_Name=Air
 -- Occupancy is calculated by (Total Passengers)/(Total Seats) for each row and then the average is take for each origin-destination route pair.
 -- Note: Occupancy could also be calculated by (Total Passengers)/(Total Seats) over each origin-destination route pair (not taking the average over all rows).  This yields a similar result to the above, but this method tends to wash out smaller aircraft that still offer lower occupancy rates on a given route.
 
-* Air Fare Class and Stopover Routes
+* Air Fare Class and Stopovers
 https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=289&DB_Short_Name=Origin%20and%20Destination%20Survey
 - Airline Origin and Destination Survey (DB1B) database from the Bureau of Transportation Statistics
 "Origin and Destination Survey (DB1B) is a 10% sample of airline tickets from reporting carriers. Data includes origin, destination and other itinerary details of passengers transported."
@@ -102,18 +102,18 @@ https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=289&DB_Short_Name=Ori
 -- Fraction of fare class travelers is weighted by the total passengers on that route.
 -- Stopovers are calculated by counting the number of sequence numbers within a market id for a given route.
 
-* Airport location data
+* Airport Locations
 http://openflights.org/data.html#airport
 - airports.dat
 
-* Amtrak station location data
+* Amtrak Station Locations
 http://www.ensingers.com/Bill222E/gpsamtrak.html
 
-* Amtrak station ridership statistics
+* Amtrak Station Ridership Statistics
 https://www.narprail.org/our-issues/reports-and-white-papers/ridership-statistics/
 - Copied from California PDF
 
-* Amtrak station delay data
+* Amtrak Station Delays
 https://juckins.net/amtrak_status/archive/html/resources.php
 - Publicly-available twice-daily scraper from Amtrak.com
 - Data taken from "Amtrak Status Maps Archive Database"
