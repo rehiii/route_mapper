@@ -61,18 +61,18 @@ Output directory:
 maps (default data maps included)
 
 
-#########################
+########################
 Required python packages
-#########################
+########################
 numpy
 pandas
 argparse
 folium
 
 
-#############
+############
 Data sources
-#############
+############
 * Aircraft Delays
 https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time
 - Airline On-Time Performance database from the Bureau of Transportation Statistics

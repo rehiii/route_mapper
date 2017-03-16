@@ -346,7 +346,7 @@ if __name__ == '__main__':
         html = """{0} {1}<BR>to<BR>{2} {3}<BR><BR>""" \
                """ (10% sample of domestic tickets)<Br><font color="green">{4}</font> Total Passengers<BR>""" \
                """{5} mi<BR><Br>""" \
-               """<font color="green">{6}%</font> First/Business Flyers<BR>{7}% Coach Flyers""".format(origin,
+               """<font color="green">{6:.1f}%</font> First/Business Flyers<BR>{7:.1f}% Coach Flyers""".format(origin,
                                                                                                                orig_city,
                                                                                                                dest,
                                                                                                                dest_city,
