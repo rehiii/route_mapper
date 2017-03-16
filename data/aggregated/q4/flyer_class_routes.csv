@@ -1,0 +1,614 @@
+PASSENGERS_sum,class_bf_frac,class_c_frac,orig_code,orig_name,orig_city,ORIGIN_STATE_ABR,orig_lat,orig_lon,dest_code,dest_name,dest_city,DEST_STATE_ABR,dest_lat,dest_lon,DISTANCE_mean
+28.0,0.0,1.0,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,672.0
+12.0,0.25,0.75,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,744.0
+4573.0,0.0603542532255,0.939645746775,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,677.0
+11.0,0.0,1.0,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,664.0
+21.0,0.0,1.0,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,630.0
+2020.0,0.0,1.0,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,628.0
+45.0,0.0,1.0,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,650.0
+5.0,0.0,1.0,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,564.0
+1.0,0.0,1.0,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,CEC,Jack Mc Namara Field Airport,Crescent City,CA,41.78020096,-124.2369995,56.0
+1.0,0.0,1.0,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,591.0
+1.0,0.0,1.0,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,116.0
+2.0,0.0,1.0,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,327.0
+2.0,0.0,1.0,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,646.0
+1.0,0.0,1.0,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,685.0
+2.0,0.0,1.0,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,509.0
+1444.0,0.01108033241,0.98891966759,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,250.0
+2.0,0.0,1.0,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,207.0
+629.0,0.060413354531,0.939586645469,ASE,Aspen-Pitkin Co/Sardy Field,Aspen,CO,39.22320175,-106.8690033,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,737.0
+1.0,0.0,1.0,ASE,Aspen-Pitkin Co/Sardy Field,Aspen,CO,39.22320175,-106.8690033,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,652.0
+2.0,0.0,1.0,ASE,Aspen-Pitkin Co/Sardy Field,Aspen,CO,39.22320175,-106.8690033,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,730.0
+61.0,0.0,1.0,AZA,Phoenix-Mesa-Gateway Airport,Mesa,AZ,33.30780029,-111.6549988,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,516.0
+499.0,0.0,1.0,AZA,Phoenix-Mesa-Gateway Airport,Mesa,AZ,33.30780029,-111.6549988,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,668.0
+388.0,0.0,1.0,AZA,Phoenix-Mesa-Gateway Airport,Mesa,AZ,33.30780029,-111.6549988,SCK,Stockton Metropolitan Airport,Stockton,CA,37.894199371338,-121.2379989624,625.0
+1.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,704.0
+2.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,94.0
+1.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,DRO,Durango La Plata County Airport,Durango,CO,37.1515007019,-107.753997803,642.0
+4.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,100.0
+1.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,GJT,Grand Junction Regional Airport,Grand Junction,CO,39.1223983765,-108.527000427,633.0
+2.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,224.0
+20.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,109.0
+3.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,126.0
+1127.0,0.0408163265306,0.959183673469,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,425.0
+2.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,183.0
+1.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,RIW,Riverton Regional Airport,Riverton WY,WY,43.064201355,-108.459999084,774.0
+2.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,215.0
+2.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,91.0
+461.0,0.00216919739696,0.997830802603,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,238.0
+4.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,208.0
+1.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,534.0
+1.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,265.0
+5.0,0.0,1.0,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,139.0
+784.0,0.0,1.0,BLI,Bellingham International Airport,Bellingham,WA,48.79280090332031,-122.53800201416016,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,764.0
+67.0,0.0,1.0,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,656.0
+1569.0,0.0267686424474,0.973231357553,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,674.0
+1.0,0.0,1.0,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,680.0
+1865.0,0.0,1.0,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,512.0
+32.0,0.0,1.0,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,660.0
+544.0,0.00367647058824,0.996323529412,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,749.0
+1590.0,0.0238993710692,0.976100628931,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,522.0
+594.0,0.00841750841751,0.991582491582,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,523.0
+558.0,0.0,1.0,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,437.0
+186.0,0.0,1.0,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,688.0
+12.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,672.0
+2.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,94.0
+9.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,656.0
+5.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,ELP,El Paso International Airport,El Paso,TX,31.80719948,-106.3779984,715.0
+1.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,732.0
+2.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,193.0
+8077.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,223.0
+483.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,18.0
+8.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,29.0
+11455.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,325.0
+55.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,45.0
+7849.0,0.0580965728118,0.941903427188,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,369.0
+9.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,109.0
+15.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,374.0
+75.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,122.0
+13.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,86.0
+1942.0,0.00978372811535,0.990216271885,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,326.0
+5843.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,296.0
+1099.0,0.00727934485896,0.987261146497,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,574.0
+5963.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,358.0
+112.0,0.0,1.0,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,46.0
+21.0,0.047619047619,0.952380952381,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,453.0
+1.0,0.0,1.0,BZN,Gallatin Field,Bozeman,MT,45.77750015,-111.1529999,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,724.0
+1.0,0.0,1.0,CEC,Jack Mc Namara Field Airport,Crescent City,CA,41.78020096,-124.2369995,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,170.0
+19.0,0.0,1.0,CEC,Jack Mc Namara Field Airport,Crescent City,CA,41.78020096,-124.2369995,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,275.0
+2.0,0.0,1.0,DEN,Denver International Airport,Denver,CO,39.861698150635,-104.672996521,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,780.0
+1908.0,0.0691823899371,0.930817610063,DEN,Denver International Airport,Denver,CO,39.861698150635,-104.672996521,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,776.0
+7.0,0.0,1.0,DRO,Durango La Plata County Airport,Durango,CO,37.1515007019,-107.753997803,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,631.0
+1.0,0.0,1.0,DRO,Durango La Plata County Airport,Durango,CO,37.1515007019,-107.753997803,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,640.0
+1.0,0.0,1.0,EAT,Pangborn Memorial Airport,Wenatchee,WA,47.3988990784,-120.207000732,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,628.0
+138.0,0.0217391304348,0.978260869565,EGE,Eagle County Regional Airport,Vail,CO,39.64260101,-106.9179993,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,748.0
+30.0,0.0,1.0,ELP,El Paso International Airport,El Paso,TX,31.80719948,-106.3779984,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,715.0
+2422.0,0.0177539223782,0.982246077622,ELP,El Paso International Airport,El Paso,TX,31.80719948,-106.3779984,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,715.0
+70.0,0.0,1.0,ELP,El Paso International Airport,El Paso,TX,31.80719948,-106.3779984,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,636.0
+16.0,0.0,1.0,ELP,El Paso International Airport,El Paso,TX,31.80719948,-106.3779984,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,681.0
+1.0,0.0,1.0,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,732.0
+1029.0,0.22351797862,0.77648202138,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,748.0
+478.0,0.0,1.0,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,445.0
+1.0,0.0,1.0,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,796.0
+1.0,0.0,1.0,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,693.0
+2591.0,0.0262446931687,0.973755306831,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,451.0
+276.0,0.0,1.0,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,471.0
+3.0,0.0,1.0,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,384.0
+1.0,0.0,1.0,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,776.0
+67.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,AZA,Phoenix-Mesa-Gateway Airport,Mesa,AZ,33.30780029,-111.6549988,516.0
+4.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,100.0
+1444.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,259.0
+1819.0,0.325453545904,0.674546454096,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,209.0
+2.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,76.0
+11.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,153.0
+7.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,222.0
+574.0,0.00871080139373,0.991289198606,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,626.0
+2658.0,0.0827689992476,0.917231000752,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,493.0
+4.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,272.0
+7.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,188.0
+1010.0,0.0039603960396,0.99603960396,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,314.0
+3.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,162.0
+9.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,118.0
+1244.0,0.0176848874598,0.98231511254,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,748.0
+1121.0,0.00802854594112,0.991971454059,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,158.0
+13.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,129.0
+1298.0,0.0123266563945,0.985362095532,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,501.0
+37.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,167.0
+8.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,238.0
+1.0,0.0,1.0,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,208.0
+2.0,0.0,1.0,FLG,Flagstaff Pulliam Airport,Flagstaff,AZ,35.13850021,-111.6709976,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,393.0
+2.0,0.0,1.0,FLG,Flagstaff Pulliam Airport,Flagstaff,AZ,35.13850021,-111.6709976,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,358.0
+1.0,0.0,1.0,FLG,Flagstaff Pulliam Airport,Flagstaff,AZ,35.13850021,-111.6709976,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,621.0
+1.0,0.0,1.0,FLG,Flagstaff Pulliam Airport,Flagstaff,AZ,35.13850021,-111.6709976,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,601.0
+1.0,0.0,1.0,FLG,Flagstaff Pulliam Airport,Flagstaff,AZ,35.13850021,-111.6709976,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,368.0
+1.0,0.0,1.0,GEG,Spokane International Airport,Spokane,WA,47.61989974975586,-117.53399658203125,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,757.0
+2176.0,0.0,1.0,GEG,Spokane International Airport,Spokane,WA,47.61989974975586,-117.53399658203125,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,723.0
+1.0,0.0,1.0,GEG,Spokane International Airport,Spokane,WA,47.61989974975586,-117.53399658203125,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,733.0
+2.0,0.0,1.0,GEG,Spokane International Airport,Spokane,WA,47.61989974975586,-117.53399658203125,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,742.0
+94.0,0.0,1.0,GEG,Spokane International Airport,Spokane,WA,47.61989974975586,-117.53399658203125,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,649.0
+2.0,0.0,1.0,GJT,Grand Junction Regional Airport,Grand Junction,CO,39.1223983765,-108.527000427,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,758.0
+33.0,0.0,1.0,GUC,Gunnison Crested Butte Regional Airport,Gunnison,CO,38.53390121,-106.9329987,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,714.0
+79.0,0.0506329113924,0.949367088608,HDN,Yampa Valley Airport,Hayden,CO,40.48120117,-107.2180023,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,763.0
+1.0,0.0,1.0,IDA,Idaho Falls Regional Airport,Idaho Falls,ID,43.51459884643555,-112.07099914550781,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,677.0
+280.0,0.2,0.8,JAC,Jackson Hole Airport,Jacksn Hole,WY,43.6072998046875,-110.73799896240234,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,784.0
+106.0,0.0660377358491,0.933962264151,JAC,Jackson Hole Airport,Jacksn Hole,WY,43.6072998046875,-110.73799896240234,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,737.0
+1.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,224.0
+8631.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,223.0
+1369.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,259.0
+29638.0,0.0725082664147,0.927491733585,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,236.0
+3972.0,0.999244712991,0.000755287009063,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,231.0
+1.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,231.0
+378.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,375.0
+11470.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,407.0
+4684.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,197.0
+25.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,173.0
+13313.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,258.0
+2.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,289.0
+1.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,314.0
+1419.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,SCK,Stockton Metropolitan Airport,Stockton,CA,37.894199371338,-121.2379989624,359.0
+26402.0,0.14960987804,0.85039012196,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,414.0
+9262.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,386.0
+8384.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,397.0
+575.0,0.0,1.0,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,SMX,Santa Maria Pub/Capt G Allan Hancock Field,Santa Maria,CA,34.89889908,-120.4570007,310.0
+6915.0,0.000144613159798,0.99985538684,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,226.0
+4395.0,0.0780432309443,0.921956769056,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,677.0
+571.0,0.061295971979,0.938704028021,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,ASE,Aspen-Pitkin Co/Sardy Field,Aspen,CO,39.22320175,-106.8690033,737.0
+15.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,109.0
+1522.0,0.0256241787122,0.974375821288,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,674.0
+482.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,18.0
+140.0,0.0571428571429,0.942857142857,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,EGE,Eagle County Regional Airport,Vail,CO,39.64260101,-106.9179993,748.0
+2450.0,0.0155102040816,0.984489795918,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,ELP,El Paso International Airport,El Paso,TX,31.80719948,-106.3779984,715.0
+1043.0,0.162991371045,0.837008628955,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,748.0
+2191.0,0.25604746691,0.74395253309,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,209.0
+3.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,FLG,Flagstaff Pulliam Airport,Flagstaff,AZ,35.13850021,-111.6709976,393.0
+1.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,FMN,Four Corners Regional Airport,Farmington,NM,36.741199493399996,-108.230003357,606.0
+1.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,GJT,Grand Junction Regional Airport,Grand Junction,CO,39.1223983765,-108.527000427,655.0
+30.0,0.0333333333333,0.966666666667,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,GUC,Gunnison Crested Butte Regional Airport,Gunnison,CO,38.53390121,-106.9329987,714.0
+74.0,0.0675675675676,0.932432432432,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,HDN,Yampa Valley Airport,Hayden,CO,40.48120117,-107.2180023,763.0
+281.0,0.192170818505,0.807829181495,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,JAC,Jackson Hole Airport,Jacksn Hole,WY,43.6072998046875,-110.73799896240234,784.0
+29168.0,0.0805677454745,0.919432254526,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,236.0
+190.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,17.0
+905.0,0.014364640884,0.985635359116,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,630.0
+371.0,0.00269541778976,0.99730458221,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,256.0
+1539.0,0.00454840805718,0.995451591943,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,266.0
+106.0,0.00943396226415,0.990566037736,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,MTJ,Montrose Regional Airport,Montrose CO,CO,38.509799957300004,-107.893997192,666.0
+15002.0,0.00419944007466,0.995800559925,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,337.0
+330.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,47.0
+19333.0,0.116536492008,0.883463507992,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,370.0
+9.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,PRC,Ernest A. Love Field,Prescott,AZ,34.65449905,-112.4199982,346.0
+454.0,0.00660792951542,0.993392070485,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,110.0
+411.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,PVU,Provo Municipal Airport,Provo,UT,40.219200134277,-111.72299957275,569.0
+123.0,0.105691056911,0.894308943089,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,RDM,Roberts Field,Redmond-Bend,OR,44.2541008,-121.1500015,726.0
+4767.0,0.0765680721628,0.923431927837,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,391.0
+1.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,SAF,Santa Fe Municipal Airport,Santa Fe,NM,35.617099762,-106.088996887,710.0
+7826.0,0.100178890877,0.899821109123,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,109.0
+1412.0,0.0028328611898,0.99716713881,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,89.0
+1296.0,0.00154320987654,0.998456790123,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,156.0
+42556.0,0.0953097095592,0.904690290441,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,337.0
+14432.0,0.0488497782705,0.951150221729,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,308.0
+13054.0,0.0540830396813,0.945074306726,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,590.0
+13046.0,0.0491338341254,0.950866165875,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,373.0
+2.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,SMX,Santa Maria Pub/Capt G Allan Hancock Field,Santa Maria,CA,34.89889908,-120.4570007,134.0
+1250.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,36.0
+1486.0,0.0154777927322,0.984522207268,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,400.0
+114.0,0.0263157894737,0.973684210526,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,SUN,Friedman Memorial Airport,Hailey,ID,43.50439835,-114.2959976,696.0
+5019.0,0.0964335525005,0.9035664475,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,451.0
+1.0,0.0,1.0,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,YUM,Yuma MCAS/Yuma International Airport,Yuma,AZ,32.65660095,-114.6060028,237.0
+4.0,0.5,0.5,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,664.0
+13.0,0.0,1.0,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,29.0
+3.0,0.0,1.0,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,222.0
+3956.0,0.998483316481,0.00151668351871,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,231.0
+161.0,0.0,1.0,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,17.0
+3455.0,0.999710564399,0.000289435600579,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,353.0
+12.0,0.0,1.0,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,36.0
+2545.0,0.201571709234,0.798035363458,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,355.0
+1.0,0.0,1.0,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,95.0
+17.0,0.0,1.0,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,93.0
+3385.0,0.997341211226,0.002658788774,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,354.0
+2.0,0.0,1.0,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,324.0
+4458.0,0.52243158367,0.475325257963,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,588.0
+2256.0,0.999113475177,0.000886524822695,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,387.0
+47.0,0.0,1.0,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,19.0
+1.0,0.0,1.0,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,116.0
+884.0,0.00226244343891,0.997737556561,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,630.0
+2.0,0.0,1.0,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,323.0
+1.0,0.0,1.0,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,RDD,Redding Municipal Airport,Redding,CA,40.50899887,-122.2929993,132.0
+1521.0,0.00986193293886,0.990138067061,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,329.0
+2.0,0.0,1.0,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,349.0
+3.0,0.0,1.0,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,263.0
+6.0,0.0,1.0,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,659.0
+1.0,0.0,1.0,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,267.0
+5.0,0.2,0.8,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,DEN,Denver International Airport,Denver,CO,39.861698150635,-104.672996521,780.0
+316.0,0.0158227848101,0.98417721519,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,256.0
+2.0,0.0,1.0,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,138.0
+70.0,0.0,1.0,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,350.0
+43.0,0.046511627907,0.953488372093,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,193.0
+1.0,0.0,1.0,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,256.0
+6.0,0.0,1.0,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,119.0
+397.0,0.0,1.0,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,375.0
+1574.0,0.00317662007624,0.996823379924,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,266.0
+2.0,0.0,1.0,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,81.0
+1443.0,0.0942480942481,0.905751905752,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,598.0
+1.0,0.0,1.0,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,357.0
+1.0,0.0,1.0,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,231.0
+586.0,0.00511945392491,0.994880546075,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,375.0
+2.0,0.0,1.0,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,187.0
+1.0,0.0,1.0,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,115.0
+1.0,0.0,1.0,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,750.0
+627.0,0.0271132376396,0.97288676236,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,77.0
+22.0,0.0,1.0,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,54.0
+5.0,0.0,1.0,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,146.0
+2.0,0.0,1.0,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,302.0
+113.0,0.0176991150442,0.982300884956,MTJ,Montrose Regional Airport,Montrose CO,CO,38.509799957300004,-107.893997192,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,666.0
+1.0,0.0,1.0,MTJ,Montrose Regional Airport,Montrose CO,CO,38.509799957300004,-107.893997192,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,579.0
+29.0,0.103448275862,0.896551724138,MTJ,Montrose Regional Airport,Montrose CO,CO,38.509799957300004,-107.893997192,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,791.0
+506.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,AZA,Phoenix-Mesa-Gateway Airport,Mesa,AZ,33.30780029,-111.6549988,668.0
+755.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,BLI,Bellingham International Airport,Bellingham,WA,48.79280090332031,-122.53800201416016,764.0
+2097.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,512.0
+11569.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,325.0
+416.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,445.0
+5.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,153.0
+2004.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,GEG,Spokane International Airport,Spokane,WA,47.61989974975586,-117.53399658203125,723.0
+11253.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,407.0
+15035.0,0.00492184901896,0.995078150981,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,337.0
+3513.0,0.999430686023,0.000569313976658,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,353.0
+2.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,323.0
+6842.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,362.0
+7251.0,0.00179285615777,0.998207143842,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,543.0
+9101.0,0.0636193824854,0.936380617515,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,646.0
+396.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,PVU,Provo Municipal Airport,Provo,UT,40.219200134277,-111.72299957275,591.0
+21.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,181.0
+10448.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,446.0
+1.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,263.0
+10431.0,0.016968651136,0.983031348864,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,672.0
+786.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,11.0
+233.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,29.0
+6215.0,0.00241351568785,0.996942880129,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,588.0
+156.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,75.0
+8522.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,371.0
+8.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,63.0
+132.0,0.0,1.0,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,747.0
+20.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,630.0
+1.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,126.0
+77.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,660.0
+64.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,45.0
+21.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,ELP,El Paso International Airport,El Paso,TX,31.80719948,-106.3779984,670.0
+4.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,222.0
+4649.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,197.0
+276.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,47.0
+10.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,36.0
+6770.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,362.0
+1.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,OTH,Southwest Oregon Regional Airport,North Bend,OR,43.41709899902344,-124.24600219726562,738.0
+10213.0,0.061000685401,0.938999314599,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,325.0
+68.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,65.0
+1.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,RDD,Redding Municipal Airport,Redding,CA,40.50899887,-122.2929993,514.0
+3.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,RDM,Roberts Field,Redmond-Bend,OR,44.2541008,-121.1500015,729.0
+33.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,394.0
+106.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,94.0
+1.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,191.0
+2641.0,0.000757288905718,0.999242711094,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,363.0
+3757.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,333.0
+2344.0,0.00853242320819,0.98933447099,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,558.0
+6296.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,390.0
+181.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,30.0
+14.0,0.0,1.0,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,409.0
+205.0,0.0,1.0,OTH,Southwest Oregon Regional Airport,North Bend,OR,43.41709899902344,-124.24600219726562,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,412.0
+1.0,0.0,1.0,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,327.0
+1.0,0.0,1.0,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,725.0
+27.0,0.0,1.0,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,CEC,Jack Mc Namara Field Airport,Crescent City,CA,41.78020096,-124.2369995,275.0
+559.0,0.0143112701252,0.985688729875,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,626.0
+1.0,0.0,1.0,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,622.0
+7472.0,0.00160599571734,0.998394004283,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,543.0
+549.0,0.0309653916211,0.969034608379,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,784.0
+11944.0,0.0437876758205,0.95621232418,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,550.0
+7149.0,0.0204224367044,0.979577563296,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,569.0
+6443.0,0.0021729008226,0.997827099177,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,479.0
+520.0,0.00961538461538,0.990384615385,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,489.0
+1180.0,0.0305084745763,0.969491525424,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,425.0
+7709.0,0.0474769749643,0.952523025036,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,369.0
+2680.0,0.0705223880597,0.92947761194,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,493.0
+19601.0,0.115912453446,0.884087546554,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,370.0
+2492.0,0.138443017657,0.861556982343,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,355.0
+1430.0,0.0664335664336,0.933566433566,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,598.0
+9134.0,0.0550689730677,0.944931026932,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,646.0
+10628.0,0.0503387278886,0.949661272111,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,325.0
+2439.0,0.0828208282083,0.917179171792,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,261.0
+16418.0,0.0594469484712,0.940553051529,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,304.0
+2169.0,0.0590133702167,0.940986629783,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,455.0
+1620.0,0.183333333333,0.816666666667,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,509.0
+15294.0,0.125539427226,0.874460572774,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,651.0
+9328.0,0.115137221269,0.884862778731,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,621.0
+10572.0,0.0799281119939,0.920071888006,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,647.0
+13317.0,0.105053690771,0.894946309229,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,338.0
+9.0,0.0,1.0,PRC,Ernest A. Love Field,Prescott,AZ,34.65449905,-112.4199982,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,346.0
+339.0,0.00294985250737,0.997050147493,PSC,Tri Cities Airport,Pasco,WA,46.26470184326172,-119.11900329589844,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,620.0
+1.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,571.0
+1.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,672.0
+14.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,109.0
+1759.0,0.058555997726,0.941444002274,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,DEN,Denver International Airport,Denver,CO,39.861698150635,-104.672996521,776.0
+2.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,272.0
+20.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,173.0
+375.0,0.00533333333333,0.994666666667,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,110.0
+1.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,357.0
+58.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,65.0
+2356.0,0.110356536503,0.889643463497,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,261.0
+3.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,431.0
+57.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,85.0
+4.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,196.0
+1.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,255.0
+4110.0,0.0450121654501,0.95498783455,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,421.0
+2.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,390.0
+929.0,0.02691065662,0.969860064586,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,541.0
+3.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,439.0
+50.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,79.0
+2.0,0.0,1.0,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,344.0
+425.0,0.0,1.0,PVU,Provo Municipal Airport,Provo,UT,40.219200134277,-111.72299957275,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,569.0
+403.0,0.0,1.0,PVU,Provo Municipal Airport,Provo,UT,40.219200134277,-111.72299957275,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,591.0
+1.0,0.0,1.0,RDD,Redding Municipal Airport,Redding,CA,40.50899887,-122.2929993,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,514.0
+1.0,0.0,1.0,RDD,Redding Municipal Airport,Redding,CA,40.50899887,-122.2929993,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,351.0
+1.0,0.0,1.0,RDD,Redding Municipal Airport,Redding,CA,40.50899887,-122.2929993,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,151.0
+712.0,0.0,1.0,RDD,Redding Municipal Airport,Redding,CA,40.50899887,-122.2929993,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,199.0
+2.0,0.0,1.0,RDD,Redding Municipal Airport,Redding,CA,40.50899887,-122.2929993,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,131.0
+111.0,0.0990990990991,0.900900900901,RDM,Roberts Field,Redmond-Bend,OR,44.2541008,-121.1500015,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,726.0
+1.0,0.0,1.0,RDM,Roberts Field,Redmond-Bend,OR,44.2541008,-121.1500015,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,454.0
+1.0,0.0,1.0,RDM,Roberts Field,Redmond-Bend,OR,44.2541008,-121.1500015,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,729.0
+1057.0,0.000946073793756,0.999053926206,RDM,Roberts Field,Redmond-Bend,OR,44.2541008,-121.1500015,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,462.0
+17.0,0.0,1.0,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,374.0
+4.0,0.0,1.0,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,188.0
+4477.0,0.0815278088005,0.918472191199,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,391.0
+1.0,0.0,1.0,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,231.0
+11.0,0.0,1.0,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,181.0
+13.0,0.0,1.0,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,394.0
+6.0,0.0,1.0,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,431.0
+2076.0,0.0,1.0,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,488.0
+6.0,0.0,1.0,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,350.0
+1.0,0.0,1.0,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,298.0
+1704.0,0.0234741784038,0.976525821596,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,192.0
+950.0,0.00210526315789,0.997894736842,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,188.0
+55.0,0.0,1.0,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,113.0
+132.0,0.0,1.0,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,415.0
+1915.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,628.0
+2.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,215.0
+552.0,0.0144927536232,0.985507246377,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,749.0
+72.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,122.0
+88.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,ELP,El Paso International Airport,El Paso,TX,31.80719948,-106.3779984,636.0
+990.0,0.00606060606061,0.993939393939,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,314.0
+13047.0,0.000153291944508,0.999846708055,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,258.0
+8004.0,0.0983258370815,0.901674162919,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,109.0
+27.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,93.0
+1.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,734.0
+73.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,350.0
+575.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,375.0
+10646.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,446.0
+85.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,94.0
+16258.0,0.0621847705745,0.937815229426,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,304.0
+64.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,85.0
+2061.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,488.0
+1.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,SAF,Santa Fe Municipal Airport,Santa Fe,NM,35.617099762,-106.088996887,666.0
+19.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,192.0
+6.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,263.0
+20144.0,0.0225377283558,0.977462271644,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,447.0
+10030.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,417.0
+6824.0,0.0108440797186,0.986225087925,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,626.0
+9561.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,480.0
+388.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,76.0
+585.0,0.0222222222222,0.977777777778,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,508.0
+2517.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,368.0
+5.0,0.0,1.0,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,YUM,Yuma MCAS/Yuma International Airport,Yuma,AZ,32.65660095,-114.6060028,151.0
+1.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,82.0
+6.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,660.0
+11.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,86.0
+5.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,693.0
+1.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,162.0
+2.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,289.0
+1238.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,89.0
+1.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,228.0
+2.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,187.0
+3.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,131.0
+551.0,0.0308529945554,0.969147005445,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,784.0
+2225.0,0.0750561797753,0.924943820225,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,455.0
+5.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,196.0
+1.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,350.0
+17.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,192.0
+5.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,72.0
+2204.0,0.0145190562613,0.985480943739,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,262.0
+8.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,234.0
+4.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,SMX,Santa Maria Pub/Capt G Allan Hancock Field,Santa Maria,CA,34.89889908,-120.4570007,48.0
+14.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,124.0
+3.0,0.0,1.0,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,539.0
+1.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,794.0
+2.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,91.0
+1.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,148.0
+1.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,118.0
+1.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,314.0
+1245.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,156.0
+1.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,191.0
+1595.0,0.173040752351,0.826959247649,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,509.0
+2.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,255.0
+1.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,298.0
+3.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,263.0
+13.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,72.0
+1036.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,190.0
+2.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,163.0
+13.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,244.0
+3.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,SMX,Santa Maria Pub/Capt G Allan Hancock Field,Santa Maria,CA,34.89889908,-120.4570007,25.0
+2.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,191.0
+1.0,0.0,1.0,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,256.0
+385.0,0.0,1.0,SCK,Stockton Metropolitan Airport,Stockton,CA,37.894199371338,-121.2379989624,AZA,Phoenix-Mesa-Gateway Airport,Mesa,AZ,33.30780029,-111.6549988,625.0
+1488.0,0.0,1.0,SCK,Stockton Metropolitan Airport,Stockton,CA,37.894199371338,-121.2379989624,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,359.0
+1279.0,0.0117279124316,0.988272087568,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,748.0
+10735.0,0.0178854215184,0.982114578482,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,672.0
+21183.0,0.0446112448662,0.955388755134,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,679.0
+10855.0,0.0376784891755,0.962321510825,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,697.0
+9720.0,0.0296296296296,0.970267489712,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,605.0
+636.0,0.0141509433962,0.985849056604,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,618.0
+1432.0,0.0132681564246,0.986731843575,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,ACV,Arcata Airport,Arcata CA,CA,40.97809982299805,-124.10900115966797,250.0
+431.0,0.0,1.0,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,238.0
+1649.0,0.0303214069133,0.969678593087,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,522.0
+1926.0,0.01246105919,0.98753894081,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,326.0
+2364.0,0.0203045685279,0.979695431472,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,451.0
+725.0,0.00551724137931,0.994482758621,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,158.0
+2.0,0.0,1.0,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,GEG,Spokane International Airport,Spokane,WA,47.61989974975586,-117.53399658203125,733.0
+112.0,0.0446428571429,0.955357142857,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,JAC,Jackson Hole Airport,Jacksn Hole,WY,43.6072998046875,-110.73799896240234,737.0
+25929.0,0.1496393999,0.8503606001,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,414.0
+43558.0,0.0891684650351,0.910831534965,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,337.0
+3371.0,0.995550281815,0.00444971818451,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,354.0
+1555.0,0.0122186495177,0.987781350482,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,329.0
+55.0,0.0,1.0,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,193.0
+690.0,0.0231884057971,0.976811594203,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,77.0
+24.0,0.0833333333333,0.916666666667,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,MTJ,Montrose Regional Airport,Montrose CO,CO,38.509799957300004,-107.893997192,791.0
+707.0,0.0,1.0,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,11.0
+2665.0,0.00112570356473,0.998874296435,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,363.0
+211.0,0.0,1.0,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,OTH,Southwest Oregon Regional Airport,North Bend,OR,43.41709899902344,-124.24600219726562,412.0
+12057.0,0.0437090486854,0.956290951315,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,550.0
+15222.0,0.127052949678,0.872947050322,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,651.0
+375.0,0.00266666666667,0.997333333333,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,PSC,Tri Cities Airport,Pasco,WA,46.26470184326172,-119.11900329589844,620.0
+4264.0,0.0452626641651,0.954737335835,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,421.0
+727.0,0.00275103163686,0.997248968363,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,RDD,Redding Municipal Airport,Redding,CA,40.50899887,-122.2929993,199.0
+1068.0,0.000936329588015,0.999063670412,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,RDM,Roberts Field,Redmond-Bend,OR,44.2541008,-121.1500015,462.0
+1658.0,0.0211097708082,0.978890229192,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,192.0
+20179.0,0.0214579513355,0.978542048664,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,447.0
+2162.0,0.0157261794635,0.984273820537,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,262.0
+1012.0,0.00197628458498,0.998023715415,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,190.0
+21338.0,0.0450838878995,0.9549161121,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,679.0
+1080.0,0.0,1.0,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,30.0
+6506.0,0.0252075007685,0.973870273594,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,599.0
+2026.0,0.00296150049358,0.997038499506,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,86.0
+541.0,0.0,1.0,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,SMX,Santa Maria Pub/Capt G Allan Hancock Field,Santa Maria,CA,34.89889908,-120.4570007,216.0
+11068.0,0.0201481749187,0.979851825081,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,372.0
+22.0,0.0,1.0,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,66.0
+76.0,0.0921052631579,0.907894736842,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,SUN,Friedman Memorial Airport,Hailey,ID,43.50439835,-114.2959976,587.0
+893.0,0.03359462486,0.96640537514,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,751.0
+2.0,0.0,1.0,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,YUM,Yuma MCAS/Yuma International Airport,Yuma,AZ,32.65660095,-114.6060028,557.0
+1.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,208.0
+635.0,0.00787401574803,0.992125984252,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,523.0
+5948.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,296.0
+254.0,0.00393700787402,0.996062992126,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,471.0
+12.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,129.0
+8998.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,386.0
+14609.0,0.0431925525361,0.956807447464,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,308.0
+4.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,324.0
+1.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,349.0
+2.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,170.0
+22.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,54.0
+258.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,29.0
+3818.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,333.0
+7206.0,0.0226200388565,0.977379961143,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,569.0
+9528.0,0.114399664148,0.885600335852,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,621.0
+1.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,390.0
+840.0,0.00238095238095,0.997619047619,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,188.0
+9849.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,417.0
+10.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,234.0
+7.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,163.0
+10816.0,0.0356878698225,0.964312130178,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,697.0
+1249.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,30.0
+3390.0,0.00796460176991,0.990855457227,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,584.0
+132.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,94.0
+9084.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,342.0
+5.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,93.0
+54.0,0.0,1.0,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,722.0
+1054.0,0.00664136622391,0.989563567362,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,574.0
+1259.0,0.0142970611597,0.983320095314,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,501.0
+12899.0,0.046515233739,0.95193425847,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,590.0
+4574.0,0.526891123743,0.472015741146,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,588.0
+6132.0,0.00342465753425,0.995759947815,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,588.0
+2283.0,0.0127025843189,0.984231274639,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,558.0
+917.0,0.0250817884406,0.973827699019,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,541.0
+6983.0,0.00830588572247,0.988830015753,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,626.0
+6040.0,0.0245033112583,0.975,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,599.0
+3554.0,0.00815981992122,0.989026449071,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,584.0
+3864.0,0.00957556935818,0.986283643892,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,532.0
+3761.0,0.00877426216432,0.989896304174,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,588.0
+2.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,265.0
+625.0,0.0032,0.9968,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,437.0
+5881.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,358.0
+2.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,384.0
+34.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,167.0
+126.0,0.00793650793651,0.992063492063,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,GEG,Spokane International Airport,Spokane,WA,47.61989974975586,-117.53399658203125,649.0
+8168.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,397.0
+12791.0,0.0446407630365,0.955359236963,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,373.0
+2311.0,0.999134573778,0.000865426222415,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,387.0
+8.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,263.0
+4.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,146.0
+187.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,75.0
+6438.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,390.0
+6187.0,0.00274769678358,0.997252303216,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,479.0
+10785.0,0.0950394065832,0.904960593417,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,647.0
+2.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,439.0
+2.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,RDD,Redding Municipal Airport,Redding,CA,40.50899887,-122.2929993,131.0
+2.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,RDM,Roberts Field,Redmond-Bend,OR,44.2541008,-121.1500015,384.0
+70.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,113.0
+9260.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,480.0
+4.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,310.0
+3.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,244.0
+9740.0,0.0279260780287,0.971765913758,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,605.0
+2048.0,0.0009765625,0.9990234375,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,86.0
+125.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,94.0
+3683.0,0.0124898180831,0.983165897366,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,532.0
+7200.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,404.0
+4.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,67.0
+31.0,0.0,1.0,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,752.0
+607.0,0.0,1.0,SMX,Santa Maria Pub/Capt G Allan Hancock Field,Santa Maria,CA,34.89889908,-120.4570007,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,310.0
+6.0,0.0,1.0,SMX,Santa Maria Pub/Capt G Allan Hancock Field,Santa Maria,CA,34.89889908,-120.4570007,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,134.0
+1.0,0.0,1.0,SMX,Santa Maria Pub/Capt G Allan Hancock Field,Santa Maria,CA,34.89889908,-120.4570007,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,240.0
+4.0,0.0,1.0,SMX,Santa Maria Pub/Capt G Allan Hancock Field,Santa Maria,CA,34.89889908,-120.4570007,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,48.0
+1.0,0.0,1.0,SMX,Santa Maria Pub/Capt G Allan Hancock Field,Santa Maria,CA,34.89889908,-120.4570007,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,25.0
+517.0,0.0,1.0,SMX,Santa Maria Pub/Capt G Allan Hancock Field,Santa Maria,CA,34.89889908,-120.4570007,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,216.0
+1.0,0.0,1.0,SMX,Santa Maria Pub/Capt G Allan Hancock Field,Santa Maria,CA,34.89889908,-120.4570007,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,171.0
+62.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,ABQ,Albuquerque International Sunport Airport,Albuquerque,NM,35.040199279785156,-106.60900115966797,650.0
+3.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,BFL,Meadows Field,Bakersfield,CA,35.43360138,-119.0569992,139.0
+155.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,BOI,Boise Air Terminal/Gowen field,Boise,ID,43.56439972,-116.2229996,688.0
+126.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,46.0
+10.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,ELP,El Paso International Airport,El Paso,TX,31.80719948,-106.3779984,681.0
+9.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,776.0
+5.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,238.0
+6733.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,LAS,McCarran International Airport,Las Vegas,NV,36.08010101,-115.1520004,226.0
+1251.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,36.0
+28.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,19.0
+1.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,MMH,Mammoth Yosemite Airport,Mammoth Lakes,CA,37.62409973,-118.8379974,278.0
+1.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,MRY,Monterey Peninsula Airport,Monterey,CA,36.58700180053711,-121.84300231933594,302.0
+8595.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,371.0
+185.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,30.0
+13226.0,0.111371540904,0.888628459096,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,33.43429946899414,-112.01200103759766,338.0
+83.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,79.0
+64.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,415.0
+452.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,76.0
+8.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,124.0
+3.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,191.0
+11164.0,0.0201540666428,0.979845933357,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,372.0
+9125.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,342.0
+3745.0,0.00934579439252,0.989052069426,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,SLC,Salt Lake City International Airport,Salt Lake City,UT,40.78839874267578,-111.97799682617188,588.0
+7265.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,404.0
+2.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,SUN,Friedman Memorial Airport,Hailey,ID,43.50439835,-114.2959976,705.0
+20.0,0.0,1.0,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,417.0
+1.0,0.0,1.0,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,EUG,Mahlon Sweet Field,Eugene,OR,44.12459945678711,-123.21199798583984,388.0
+1437.0,0.0118302018093,0.988169798191,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,400.0
+1.0,0.0,1.0,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,MFR,Rogue Valley International Medford Airport,Medford,OR,42.37419891357422,-122.87300109863281,267.0
+6.0,0.0,1.0,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,63.0
+553.0,0.0144665461121,0.985533453888,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,PDX,Portland International Airport,Portland,OR,45.58869934,-122.5979996,489.0
+1.0,0.0,1.0,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,RNO,Reno Tahoe International Airport,Reno,NV,39.49909973144531,-119.76799774169922,178.0
+598.0,0.0250836120401,0.97491638796,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,508.0
+657.0,0.0258751902588,0.974124809741,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,SEA,Seattle Tacoma International Airport,Seattle,WA,47.44900131225586,-122.30899810791016,618.0
+11.0,0.0,1.0,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,66.0
+1.0,0.0,1.0,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,93.0
+2.0,0.0,1.0,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,CA,38.50899887,-122.8130035,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,67.0
+95.0,0.0315789473684,0.968421052632,SUN,Friedman Memorial Airport,Hailey,ID,43.50439835,-114.2959976,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,696.0
+68.0,0.0588235294118,0.941176470588,SUN,Friedman Memorial Airport,Hailey,ID,43.50439835,-114.2959976,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,587.0
+11.0,0.0,1.0,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,BUR,Bob Hope Airport,Burbank,CA,34.20069885253906,-118.35900115966797,453.0
+12.0,0.0,1.0,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,595.0
+4945.0,0.074216380182,0.925581395349,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,451.0
+10.0,0.6,0.4,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,LGB,Long Beach /Daugherty Field/ Airport,Long Beach,CA,33.81769943,-118.1520004,435.0
+93.0,0.0,1.0,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,OAK,Metropolitan Oakland International Airport,Oakland,CA,37.72129821777344,-122.22100067138672,747.0
+9.0,0.111111111111,0.888888888889,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,ONT,Ontario International Airport,Ontario,CA,34.055999755859375,-117.60099792480469,409.0
+5.0,0.0,1.0,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,PSP,Palm Springs International Airport,Palm Springs,CA,33.8297004699707,-116.50700378417969,344.0
+2319.0,0.0,1.0,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,368.0
+1.0,0.0,1.0,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,SBA,Santa Barbara Municipal Airport,Santa Barbara,CA,34.42620087,-119.8399963,539.0
+2.0,0.5,0.5,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,SBP,San Luis County Regional Airport,San Luis Obispo,CA,35.236801147499996,-120.641998291,599.0
+838.0,0.0322195704057,0.967780429594,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,SFO,San Francisco International Airport,San Francisco,CA,37.61899948120117,-122.375,751.0
+121.0,0.0,1.0,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,37.36259841918945,-121.92900085449219,722.0
+56.0,0.0,1.0,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,SMF,Sacramento International Airport,Sacramento,CA,38.69540023803711,-121.59100341796875,752.0
+7.0,0.0,1.0,TUS,Tucson International Airport,Tucson,AZ,32.1161003112793,-110.94100189208984,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,417.0
+1.0,0.0,1.0,YUM,Yuma MCAS/Yuma International Airport,Yuma,AZ,32.65660095,-114.6060028,FAT,Fresno Yosemite International Airport,Fresno,CA,36.77619934082031,-119.71800231933594,407.0
+3.0,0.0,1.0,YUM,Yuma MCAS/Yuma International Airport,Yuma,AZ,32.65660095,-114.6060028,LAX,Los Angeles International Airport,Los Angeles,CA,33.94250107,-118.4079971,237.0
+2.0,0.0,1.0,YUM,Yuma MCAS/Yuma International Airport,Yuma,AZ,32.65660095,-114.6060028,SAN,San Diego International Airport,San Diego,CA,32.7336006165,-117.190002441,151.0
+1.0,0.0,1.0,YUM,Yuma MCAS/Yuma International Airport,Yuma,AZ,32.65660095,-114.6060028,SNA,John Wayne Airport-Orange County Airport,Santa Ana,CA,33.67570114,-117.8679962,202.0
