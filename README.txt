@@ -25,6 +25,7 @@ Arguments:
 --air-occ  Create route aircraft occupancy dataset (aircraft_occupancy_routes.csv)
 --air-class  Create flyer fare class dataset (flyer_class_routes.csv)
 --air-stopover  Create flyer stopover dataset
+--amtrak  Create amtrak stations + ridership + delays + nearest airports dataset
 --anchor-state  Orig or Dest for each route must be in this anchor state (default: CA)
 --max-dist  Maximum distance in miles of routes (default: 800mi for short haul flights)
 
@@ -73,16 +74,16 @@ folium
 ############
 Data sources
 ############
-* Aircraft Delays
+* Aircraft delays
 https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time
 - Airline On-Time Performance database from the Bureau of Transportation Statistics
 "Monthly data reported by US certified air carriers that account for at least one percent of domestic scheduled passenger revenues--includes scheduled and actual arrival and departure times for flights."
 -- On-Time Performance table
 "This table contains on-time arrival data for non-stop domestic flights by major air carriers, and provides such additional items as departure and arrival delays, origin and destination airports, flight numbers, scheduled and actual departure and arrival times, cancelled or diverted flights, taxi-out and taxi-in times, air time, and non-stop distance."
 -- Rows are per flight (take off datetime, origin, destination)
--- Delays are calculated using only delays cause by an airline-related reason (maintenance crew problems, baggage loading, fueling, previous flight with same aircraft arrived late) .
+-- Delays are calculated using only delays cause by an airline-related reason (maintenance crew problems, baggage loading, fueling, previous flight with same aircraft arrived late).
 
-* Aircraft Occupancy
+* Aircraft occupancy
 https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=259&DB_Short_Name=Air%20Carriers
 - Air Carrier Statistics (Form 41 Traffic)- U.S. Carriers database from the Bureau of Transportation Statistics
 "Monthly data reported by certificated U.S. air carriers on passengers, freight and mail transported. Also includes aircraft type, service class, available capacity and seats, and aircraft hours ramp-to-ramp and airborne."
@@ -92,7 +93,7 @@ https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=259&DB_Short_Name=Air
 -- Occupancy is calculated by (Total Passengers)/(Total Seats) for each row and then the average is take for each origin-destination route pair.
 -- Note: Occupancy could also be calculated by (Total Passengers)/(Total Seats) over each origin-destination route pair (not taking the average over all rows).  This yields a similar result to the above, but this method tends to wash out smaller aircraft that still offer lower occupancy rates on a given route.
 
-* Air Fare Class and Stopovers
+* Air Fare Class and Stopover Routes
 https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=289&DB_Short_Name=Origin%20and%20Destination%20Survey
 - Airline Origin and Destination Survey (DB1B) database from the Bureau of Transportation Statistics
 "Origin and Destination Survey (DB1B) is a 10% sample of airline tickets from reporting carriers. Data includes origin, destination and other itinerary details of passengers transported."
@@ -102,21 +103,21 @@ https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=289&DB_Short_Name=Ori
 -- Fraction of fare class travelers is weighted by the total passengers on that route.
 -- Stopovers are calculated by counting the number of sequence numbers within a market id for a given route.
 
-* Airport Locations
+* Airport location data
 http://openflights.org/data.html#airport
 - airports.dat
 
-* Amtrak Station Locations
+* Amtrak station location data
 http://www.ensingers.com/Bill222E/gpsamtrak.html
+- Created amtrak_stations.csv from it
 
-* Amtrak Station Ridership Statistics
+* Amtrak station ridership statistics
 https://www.narprail.org/our-issues/reports-and-white-papers/ridership-statistics/
 - Copied from California PDF
+- Created amtrak_station_ridership_ca_2016.csv from it
 
-* Amtrak Station Delays
+* Amtrak station delay data
 https://juckins.net/amtrak_status/archive/html/resources.php
 - Publicly-available twice-daily scraper from Amtrak.com
 - Data taken from "Amtrak Status Maps Archive Database"
-
-* Combined California-based Amtrak+Airport data already created and used by these scripts at:
-data/amtrak/ca_amtrak_airport_ridership_delays.csv
+- Created amtrak_station_delays_ca_2016.csv from it

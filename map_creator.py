@@ -27,18 +27,6 @@ def geocalc(lat0, lon0, lat1, lon1):
 def midpoint(orig_lat, orig_lon, dest_lat, dest_lon):
     return (float(orig_lat)+float(dest_lat))*1.0 / 2, (float(orig_lon)+float(dest_lon))*1.0/2
 
-def airport_data():
-    """
-    Read in airport data
-    Source: http://openflights.org/data.html#airport
-    Return pandas dataframe
-    """
-    airport_data_dir = 'data/airports'
-    airports = pd.read_csv('{0}/airports.csv'.format(airport_data_dir), header=None, dtype=str)
-    airports.columns = ['id', 'name', 'city', 'country', 'code', 'icao', 'lat', 'lon', 'altitude',
-                        'utc_offset', 'dst', 'timezone', 'type', 'source']
-    return airports
-
 
 if __name__ == '__main__':
     import numpy as np
@@ -56,10 +44,10 @@ if __name__ == '__main__':
                         default=None, metavar='QUARTER',
                         help='QUARTER over which to create the map, default None aggregates over all')
     parser.add_argument('--monthly-flights', dest='monthly_flights',
-                        default=50,
+                        default=50, type=int,
                         help='Minimum monthly flights over a route to ensure consistent pool of travelers')
     parser.add_argument('--monthly-passengers', dest='monthly_passengers',
-                        default=1000,
+                        default=1000, type=int,
                         help='Minimum monthly passengers over a route to ensure consistent pool of travelers')
     args = parser.parse_args()
 
@@ -73,9 +61,6 @@ if __name__ == '__main__':
         months = 12
         mapname_suffix = '_Full_Year'
 
-    # use entire year dataset for amtrak inputs (retrieved less programmatically - see documentation)
-    amtrak_input_dir = 'data/amtrak'
-
     # output directory
     map_dir = 'maps'
 
@@ -85,13 +70,15 @@ if __name__ == '__main__':
     # load data
     aircraft_delay_routes = pd.read_csv('{0}/aircraft_delay_routes.csv'.format(input_dir))
     aircraft_occupancy_routes = pd.read_csv('{0}/aircraft_occupancy_routes.csv'.format(input_dir))
-    amtrak = pd.read_csv('{0}/ca_amtrak_airports_ridership_delays.csv'.format(amtrak_input_dir))
+    # amtrak data taken over full year for now
+    if args.quarter is not None:
+        amtrak_input_dir = '{0}/..'.format(input_dir)
+    else:
+        amtrak_input_dir = input_dir
+    amtrak_plus = pd.read_csv('{0}/amtrak_plus.csv'.format(amtrak_input_dir))
+    amtrak_plus_delays_only = amtrak_plus.loc[~pd.isnull(amtrak_plus['delay_avg'])]
     flyer_class_routes = pd.read_csv('{0}/flyer_class_routes.csv'.format(input_dir))
     flyer_stopover_routes = pd.read_csv('{0}/flyer_stopover_routes.csv'.format(input_dir))
-
-    # Airport Data (need for amtrak station - airport mapping)
-    airports = airport_data()
-    airports_usa = airports.loc[airports['country'] == 'United States']
 
     # light cut to ensure consistently traveled routes
     flight_cut = args.monthly_flights * months
@@ -130,7 +117,7 @@ if __name__ == '__main__':
     ot_routes_40 = ot_routes.sort_values(['AirlineDelay_20frac'], ascending=False).iloc[:40]
     occ_routes_20 = occ_routes.sort_values(['occupancy_mean'], ascending=False).iloc[:20]
     occ_routes_40 = occ_routes.sort_values(['occupancy_mean'], ascending=False).iloc[:40]
-    ot_amtrak_20 = amtrak.sort_values(['delay_avg'], ascending=False).iloc[:20]
+    ot_amtrak_20 = amtrak_plus_delays_only.sort_values(['delay_avg'], ascending=False).iloc[:20]
     cl_routes_20 = cl_routes.sort_values(['class_bf_frac'], ascending=False).iloc[:20]
     cl_routes_40 = cl_routes.sort_values(['class_bf_frac'], ascending=False).iloc[:40]
     so_routes_20 = so_routes.sort_values(['stopover_frac'], ascending=False).iloc[:20]
@@ -433,23 +420,36 @@ if __name__ == '__main__':
     ############# Amtrak Stations and Nearest Airports #############
     a_list = []
     # get origin airport data to plot
-    for row in amtrak.iterrows():
-        t_code, t_city, users, t_delay_avg, t_lat, t_lon = row[1][['City', 'code', 'Users', 'delay_avg', 'lat', 'lon']]
-        a1_code, a1_name, a1_city, a1_dist = row[1][
-            ['closest_a1_code', 'closest_a1_name', 'closest_a1_city', 'closest_a1_dist']]
-        a1_lat, a1_lon = airports_usa.loc[airports_usa['name'] == a1_name, ['lat', 'lon']].values[0]
-        a2_code, a2_name, a2_city, a2_dist = row[1][
-            ['closest_a2_code', 'closest_a2_name', 'closest_a2_city', 'closest_a2_dist']]
-        a2_lat, a2_lon = airports_usa.loc[airports_usa['name'] == a2_name, ['lat', 'lon']].values[0]
+    for row in amtrak_plus.iterrows():
+        t_city, t_code, users, t_delay_avg, t_lat, t_lon = row[1][['city_caps', 'code', 'Users', 'delay_avg', 'lat', 'lon']]
+        a1_code, a1_name, a1_city, a1_dist, a1_lat, a1_lon = row[1][
+            ['closest_a1_code', 'closest_a1_name', 'closest_a1_city', 'closest_a1_dist', 'closest_a1_lat', 'closest_a1_lon']]
+        a2_code, a2_name, a2_city, a2_dist, a2_lat, a2_lon = row[1][
+            ['closest_a2_code', 'closest_a2_name', 'closest_a2_city', 'closest_a2_dist', 'closest_a2_lat', 'closest_a2_lon']]
+        try:
+            users_txt = int(users)
+        except:
+            users_txt = 'no data for'
+        try:
+            delay_txt = int(t_delay_avg)
+        except:
+            delay_txt = 'no data for'
+        else:
+            delay_txt = '{0} min'.format(int(t_delay_avg))
+
+        #print(t_city, t_code, users_txt, delay_txt, a1_name, a1_city, int(a1_dist), a2_name, a2_city, int(a2_dist))
 
         # plot Amtrak station, users, delay, and nearest airport info
         html = """{0} {1} Amtrak Station<BR>""" \
                """<font color="green">{2}</font> 2016 users<BR>""" \
-               """<font color="red">{3} min.</font> avg. delay in 2016<BR><BR>""" \
+               """<font color="red">{3}</font> avg. delay in 2016<BR><BR>""" \
                """Nearest airport is {4}, {5}<BR>{6} mi away<BR><BR>""" \
-               """Next nearest airport is {7}, {8}<BR>{9} mi away""".format(t_city, t_code, users, t_delay_avg,
-                                                                            a1_name, a1_city, int(a1_dist),
-                                                                            a2_name, a2_city, int(a2_dist))
+               """Next nearest airport is {7}, {8}<BR>{9} mi away""".format(t_city, t_code,
+                                                                            users_txt, delay_txt,
+                                                                            a1_name,
+                                                                            a1_city, int(a1_dist),
+                                                                            a2_name,
+                                                                            a2_city, int(a2_dist))
         iframe = folium.element.IFrame(html=html, width=300, height=250)
         popup = folium.Popup(iframe, max_width=1000)
         g5.add_child(folium.Marker([t_lat, t_lon], popup=popup,
@@ -481,22 +481,29 @@ if __name__ == '__main__':
     a_list = []
     # get origin airport data to plot
     for row in ot_amtrak_20.iterrows():
-        t_code, t_city, users, t_delay_avg, t_lat, t_lon = row[1][['City', 'code', 'Users', 'delay_avg', 'lat', 'lon']]
-        a1_code, a1_name, a1_city, a1_dist = row[1][
-            ['closest_a1_code', 'closest_a1_name', 'closest_a1_city', 'closest_a1_dist']]
-        a1_lat, a1_lon = airports_usa.loc[airports_usa['name'] == a1_name, ['lat', 'lon']].values[0]
-        a2_code, a2_name, a2_city, a2_dist = row[1][
-            ['closest_a2_code', 'closest_a2_name', 'closest_a2_city', 'closest_a2_dist']]
-        a2_lat, a2_lon = airports_usa.loc[airports_usa['name'] == a2_name, ['lat', 'lon']].values[0]
+        t_city, t_code, users, t_delay_avg, t_lat, t_lon = row[1][['city_caps', 'code', 'Users', 'delay_avg', 'lat', 'lon']]
+        a1_code, a1_name, a1_city, a1_dist, a1_lat, a1_lon = row[1][
+            ['closest_a1_code', 'closest_a1_name', 'closest_a1_city', 'closest_a1_dist', 'closest_a1_lat',
+             'closest_a1_lon']]
+        a2_code, a2_name, a2_city, a2_dist, a2_lat, a2_lon = row[1][
+            ['closest_a2_code', 'closest_a2_name', 'closest_a2_city', 'closest_a2_dist', 'closest_a2_lat',
+             'closest_a2_lon']]
+        try:
+            users_txt = int(users)
+        except:
+            users_txt = 'no data for'
 
         # plot Amtrak station, users, delay, and nearest airport info
         html = """{0} {1} Amtrak Station<BR>""" \
                """<font color="green">{2}</font> 2016 users<BR>""" \
                """<font color="red">{3} min.</font> avg. delay in 2016<BR><BR>""" \
                """Nearest airport is {4}, {5}<BR>{6} mi away<BR><BR>""" \
-               """Next nearest airport is {7}, {8}<BR>{9} mi away""".format(t_city, t_code, users, t_delay_avg,
-                                                                            a1_name, a1_city, int(a1_dist),
-                                                                            a2_name, a2_city, int(a2_dist))
+               """Next nearest airport is {7}, {8}<BR>{9} mi away""".format(t_city, t_code,
+                                                                            users_txt, t_delay_avg,
+                                                                            a1_name,
+                                                                            a1_city, int(a1_dist),
+                                                                            a2_name,
+                                                                            a2_city, int(a2_dist))
         iframe = folium.element.IFrame(html=html, width=300, height=250)
         popup = folium.Popup(iframe, max_width=1000)
         g6.add_child(folium.Marker([t_lat, t_lon], popup=popup,
@@ -803,6 +810,7 @@ if __name__ == '__main__':
             popup = folium.Popup(iframe, max_width=1000)
             g10.add_child(folium.Marker([dest_lat, dest_lon], popup=popup))
             dest_no_orig_list.append([dest, dest_name, dest_city])
+
 
     m.add_child(g1)
     m.add_child(g2)

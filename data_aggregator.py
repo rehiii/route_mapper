@@ -39,6 +39,9 @@ def airport_data():
     airports = pd.read_csv('{0}/airports.csv'.format(airport_data_dir), header=None, dtype=str)
     airports.columns = ['id', 'name', 'city', 'country', 'code', 'icao', 'lat', 'lon', 'altitude',
                         'utc_offset', 'dst', 'timezone', 'type', 'source']
+    # clean up non-ascii chars for mapping html
+    airports['name'] = airports['name'].map(lambda x: ''.join([" " if ord(i) < 32 or ord(i) > 126 else i for i in x]))
+    #airports['city'] = airports['city'].map(lambda x: ''.join([" " if ord(i) < 32 or ord(i) > 126 else i for i in x]))
     return airports
 
 def aircraft_delay_data(quarter, anchor_state='CA', max_dist=800):
@@ -531,6 +534,85 @@ def flyer_stopover_data(quarter, anchor_state='CA', max_dist=800):
 
     return route_merge_short
 
+def amtrak_data(anchor_state='CA'):
+    """
+    Read in amtrak data (station locations, station ridership, station delays)
+    Note: amtrak locations are entire U.S. while station ridership and delays are compiled initially in CA only
+          State added in with ridership data
+          amtrak stations outside of anchor state with the same city name as one in the anchor state
+            (e.g., Richmond, Colfax) included in amtrak_plus.csv output due to airport merge
+    Source: amtrak station locations: http://www.ensingers.com/Bill222E/gpsamtrak.html
+            amtrak station ridership: https://www.narprail.org/our-issues/reports-and-white-papers/ridership-statistics/
+            amtrak station delay data: https://juckins.net/amtrak_status/archive/html/resources.php
+    Return pandas dataframe aggregated to a collection U.S. Amtrak stations with nearest airports, ridership and delay data where available
+    """
+    # load Amtrak station data
+    amtrak_dir = '{0}/amtrak'.format(data_dir)
+    stations = pd.read_csv('{0}/amtrak_stations.csv'.format(amtrak_dir))
+    # for easier merging
+    stations['city_lower'] = stations['city_caps'].str.lower()
+    # anchor state
+
+
+    # 1st, 2nd nearest airports to each Amtrak station
+    print('finding nearest and next nearest airports to each amtrak station...')
+    print('(takes ~2 minutes)')
+    sys.stdout.flush()
+    stations_airports = stations.copy()
+    airports_usa = airports.loc[airports['country'] == 'United States']
+    for i, row in enumerate(stations_airports.iterrows()):
+        lat, lon = row[1][['lat', 'lon']]
+        airports_usa_tmp = airports_usa.copy()
+        airports_usa_tmp['station_dist'] = airports_usa_tmp.apply(lambda x: geocalc(float(lat), float(lon),
+                                                                                    float(x['lat']), float(x['lon'])),
+                                                                  axis=1)
+        dist_order = airports_usa_tmp.sort_values(['station_dist'], ascending=True)
+        closest_a1 = dist_order.iloc[0]
+        closest_a2 = dist_order.iloc[1]
+
+        stations_airports.loc[i, 'closest_a1_code'] = closest_a1['code']
+        stations_airports.loc[i, 'closest_a1_name'] = closest_a1['name']
+        stations_airports.loc[i, 'closest_a1_city'] = closest_a1['city']
+        stations_airports.loc[i, 'closest_a1_lat'] = closest_a1['lat']
+        stations_airports.loc[i, 'closest_a1_lon'] = closest_a1['lon']
+        stations_airports.loc[i, 'closest_a1_dist'] = closest_a1['station_dist']
+        stations_airports.loc[i, 'closest_a2_code'] = closest_a2['code']
+        stations_airports.loc[i, 'closest_a2_name'] = closest_a2['name']
+        stations_airports.loc[i, 'closest_a2_city'] = closest_a2['city']
+        stations_airports.loc[i, 'closest_a2_lat'] = closest_a2['lat']
+        stations_airports.loc[i, 'closest_a2_lon'] = closest_a2['lon']
+        stations_airports.loc[i, 'closest_a2_dist'] = closest_a2['station_dist']
+
+    # add ridership data (CA only for now)
+    ca_users = pd.read_csv('{0}/amtrak_station_ridership_ca_2016.csv'.format(amtrak_dir))
+    # for easier merging
+    ca_users['city_lower'] = ca_users['City'].str.lower()
+    stations_airports_ca_users = pd.merge(stations_airports, ca_users,
+                                          on=['city_lower'],
+                                          how='left')
+
+    # add delay data (CA only for now)
+    ca_delays = pd.read_csv('{0}/amtrak_station_delays_ca_2016.csv'.format(amtrak_dir))
+    stations_airports_ca_users_delays = pd.merge(stations_airports_ca_users, ca_delays,
+                                                 on=['code'],
+                                                 how='left')
+
+    # take necessary columns
+    amtrak_plus = stations_airports_ca_users_delays[['city_caps', 'State', 'code', 'lat', 'lon',
+                                                     'closest_a1_code', 'closest_a1_name', 'closest_a1_city',
+                                                     'closest_a1_lat', 'closest_a1_lon', 'closest_a1_dist',
+                                                     'closest_a2_code', 'closest_a2_name', 'closest_a2_city',
+                                                     'closest_a2_lat', 'closest_a2_lon', 'closest_a2_dist',
+                                                     'Users', 'delay_avg', 'delay_med']]
+
+    # cut on anchor state (State added in with ridership data)
+    amtrak_plus = amtrak_plus.loc[amtrak_plus['State'] == anchor_state]
+
+    return amtrak_plus
+
+
+
+
 
 if __name__ == '__main__':
     import numpy as np
@@ -559,17 +641,20 @@ if __name__ == '__main__':
     parser.add_argument('--air-stopover', dest='air_stopover',
                         default=False, action='store_true',
                         help='Create flyer stopover dataset')
+    parser.add_argument('--amtrak', dest='amtrak',
+                        default=False, action='store_true',
+                        help='Create amtrak stations + ridership + delays + nearest airports dataset')
     parser.add_argument('--anchor-state', dest='anchor_state',
                         default='CA',
                         help='Orig or Dest for each route must be in this anchor state')
     parser.add_argument('--max-dist', dest='max_dist',
-                        default=800,
+                        default=800, type=int,
                         help='Maximum distance in miles of routes')
     args = parser.parse_args()
 
     # input directory
-    # data_dir = 'data'
-    data_dir = 'E://blackbird_data/script_data'
+    data_dir = 'data'
+    # data_dir = 'E://blackbird_data/script_data'
 
     # output directory
     if args.quarter:
@@ -598,14 +683,6 @@ if __name__ == '__main__':
         aircraft_occupancy_routes = aircraft_occupancy_data(quarter=args.quarter, anchor_state=args.anchor_state, max_dist=args.max_dist)
         aircraft_occupancy_routes.to_csv('{0}/aircraft_occupancy_routes.csv'.format(output_dir), index=False)
 
-    # Amtrak Locations, Delays + Nearest Airport Data
-    ## amtrak_stations.csv copied from
-    ## ca_amtrak_station_ridership_2016.csv copied from
-    ## delay data from https://juckins.net/amtrak_status/archive/html/resources.php (scraper of amtrak site) to query 2016 delay data for each of the above station codes
-    ## combined all with airports data, using geocalc function to find nearest airports
-    ## saved to ca_amtrak_airports_ridership_delays.csv
-    ## manually removed non-CA stations (e.g. Richmond, Colfax) from ca_amtrak_airports_ridership_delays.csv
-
     # Flyer Fare Class Data
     if args.air_class:
         print('creating {0}/flyer_class_routes.csv...'.format(output_dir))
@@ -619,3 +696,9 @@ if __name__ == '__main__':
         sys.stdout.flush()
         flyer_stopover_routes = flyer_stopover_data(quarter=args.quarter, anchor_state=args.anchor_state, max_dist=args.max_dist)
         flyer_stopover_routes.to_csv('{0}/flyer_stopover_routes.csv'.format(output_dir), index=False)
+
+    # Amtrak Locations, Delays + Nearest Airport Data
+    if args.amtrak:
+        print('creating {0}/amtrak_plus.csv...'.format(output_dir))
+        amtrak_plus = amtrak_data(anchor_state=args.anchor_state)
+        amtrak_plus.to_csv('{0}/amtrak_plus.csv'.format(output_dir), index=False)

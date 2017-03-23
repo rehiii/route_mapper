@@ -1,0 +1,68 @@
+City,code,delay_avg,delay_med
+Anaheim,ANA,8,3
+Antioch-Pittsburg,ACA,12,6
+Auburn,ARN,1,1
+Bakersfield,BFD,2,0
+Barstow,BAR,46,17
+Berkeley,BKY,5,2
+Burbank Airport,BUR,10,3
+Camarillo,CML,10,3
+Carpinteria,CPN,10,3
+Chatsworth,CWT,10,3
+Chico,CIC,46,26
+Colfax,COX,49,24
+Corcoran,COC,9,4
+Davis,DAV,7,2
+Dunsmuir,DUN,45,24
+Emeryville,EMY,7,1
+Fremont,FMT,4,1
+Fresno,FNO,9,3
+Fullerton,FUL,12,3
+Glendale,GDL,8,2
+Goleta,GTA,8,2
+Grover Beach,GVB,13,4
+Guadalupe/Santa Maria,GUA,14,6
+Hanford,HNF,9,3
+Hayward,HAY,4,1
+Irvine,IRV,8,3
+Lompoc-Surf Station,LPS,15,9
+Los Angeles,LAX,4,0
+Madera,MDR,11,5
+Martinez,MTZ,8,2
+Merced,MCD,11,6
+Modesto,MOD,12,7
+Moorpark,MPK,10,5
+Needles,NDL,56,30
+Oakland,OKJ,5,0
+Oceanside,OSD,8,4
+Ontario,ONA,31,12
+Oxnard,OXN,13,5
+Palm Springs,PSP,0,0
+Paso Robles,PRB,39,20
+Pomona,POS,30,10
+Redding,RDD,48,27
+Richmond,RIC,7,3
+Riverside,RIV,47,17
+Rocklin,RLN,4,0
+Roseville,RSV,24,4
+Sacramento,SAC,6,0
+Salinas,SNS,39,21
+San Bernadino,SNB,47,18
+San Clemente Pier,SNP,10,4
+San Diego,SAN,2,0
+San Jose,SJC,8,0
+San Juan Capistrano,SNC,8,4
+San Luis Obispo,SLO,16,0
+Santa Ana,SNA,8,3
+Santa Barbara,SBA,12,2
+Santa Clara-Great America,GAC,4,1
+Simi Valley,SIM,12,4
+Solana Beach,SOL,8,4
+Stockton,SKN,10,4
+Suisun-Fairfield,SUI,4,1
+Truckee,TRU,46,22
+Turlock-Denair,TRK,12,7
+Van Nuys,VNC,10,2
+Ventura,VEC,11,5
+Victorville,VRV,47,17
+Wasco,WAC,10,4
