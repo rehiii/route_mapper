@@ -115,6 +115,7 @@ http://www.ensingers.com/Bill222E/gpsamtrak.html
 https://www.narprail.org/our-issues/reports-and-white-papers/ridership-statistics/
 - Copied from California PDF
 - Created amtrak_station_ridership_ca_2016.csv from it
+- Be sure to add "State" abbrev. column as well for --anchor-state argument usage
 
 * Amtrak station delay data
 https://juckins.net/amtrak_status/archive/html/resources.php
